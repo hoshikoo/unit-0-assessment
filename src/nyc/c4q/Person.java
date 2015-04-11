@@ -20,6 +20,12 @@ public class Person {
         this.city = city;
     }
 
+    public Person(String name, String city){
+        this.name = name;
+        this.city = city;
+    }
+
+
     public String getPhoneNumber() {
         return phoneNumber;
     }
@@ -35,4 +41,5 @@ public class Person {
     public void setName(String name) {
         this.name = name;
     }
+
 }

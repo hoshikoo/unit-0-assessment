@@ -49,10 +49,10 @@ public class Unit0TestsTest {
         assertEquals(int.class, returnType);
     }
 
-//    @Test
-//    public void testReturnPrimitiveInt1729() throws Exception {
-//        assertEquals(1729, Unit0Tests.returnPrimitiveInt1729());
-//    }
+    @Test
+    public void testReturnPrimitiveInt1729() throws Exception {
+        assertEquals(1729, Unit0Tests.returnPrimitiveInt1729());
+    }
 
     @Test
     public void testReturnPrimitiveDoubleThreePointOneFourType() throws Exception {
@@ -72,10 +72,10 @@ public class Unit0TestsTest {
         assertEquals(char.class, returnType);
     }
 
-//    @Test
-//    public void testReturnPrimitiveCharZ() throws Exception {
-//        assertEquals('Z', Unit0Tests.returnPrimitiveCharZ());
-//    }
+    @Test
+    public void testReturnPrimitiveCharZ() throws Exception {
+        assertEquals('Z', Unit0Tests.returnPrimitiveCharZ());
+    }
 
     @Test
     public void testPrintSumOf1Upto10UsingForLoop() throws Exception {
@@ -211,16 +211,16 @@ public class Unit0TestsTest {
 
     // bonus problems
 
-    @Test
-    public void testBonusPrintOutSumOfFirstTenFibonacciNumbers() throws Exception {
-        Unit0Tests.bonusPrintOutSumOfFirstTenFibonacciNumbers();
-        assertEquals("89\n", outContent.toString());
-    }
-
-    @Test
-    public void testBonusPrintOutSumOfFirstFortyFibonacciNumbers() throws Exception {
-        Unit0Tests.bonusPrintOutSumOfFirstFortyFibonacciNumbers();
-        assertEquals("165580141\n", outContent.toString());
-    }
+//    @Test
+//    public void testBonusPrintOutSumOfFirstTenFibonacciNumbers() throws Exception {
+//        Unit0Tests.bonusPrintOutSumOfFirstTenFibonacciNumbers();
+//        assertEquals("89\n", outContent.toString());
+//    }
+//
+//    @Test
+//    public void testBonusPrintOutSumOfFirstFortyFibonacciNumbers() throws Exception {
+//        Unit0Tests.bonusPrintOutSumOfFirstFortyFibonacciNumbers();
+//        assertEquals("165580141\n", outContent.toString());
+//    }
 
 }
