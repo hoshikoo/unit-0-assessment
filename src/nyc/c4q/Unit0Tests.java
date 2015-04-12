@@ -152,10 +152,8 @@ public class Unit0Tests {
     }
 
     public static void changeTuringsCityToPrinceton(HashMap<String, Person> people) {
-        people = declareAndReturnHashmapOfAlanTuringAndGraceHopper();
         Person alanTuring = people.get("Alan Turing");
         alanTuring.setCity("Princeton");
-        people.put("Alan Turing", alanTuring);
     }
 
     // Bonus Problems
